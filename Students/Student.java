@@ -1,3 +1,4 @@
+
 public class Student {
     // Attributes of class Student
     private String firstName;
@@ -24,4 +25,5 @@ public class Student {
         String text = "{\nStudent Name: %s %s %s;\nGroup Number: %d;\n}";
         return String.format(text, lastName, firstName, middleName, groupNumber);
     }
+
 }

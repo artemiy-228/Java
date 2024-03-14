@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Main {
 
@@ -8,7 +9,10 @@ public class Main {
         students[2] = new StudentSportsmen("Polyantsev", "Nikita", "Sergeevich", 212, "Gym");
         students[3] = new Student("Shipkov", "Timofey", "idk", 212);
         students[4] = new Student("Sychev", "Artemy", "Daniilovich", 212);
-        for(Student student : students){
+
+        Arrays.sort(students, new StudentComparator());
+
+        for (Student student : students) {
             System.out.println(student);
         }
     }

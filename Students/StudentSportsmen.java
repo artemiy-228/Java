@@ -1,7 +1,7 @@
 
 class StudentSportsmen extends Student{
 
-    private String sportName;
+    private final String sportName;
     public String getSportName() { return sportName;}
     public StudentSportsmen(String familyName, String givenName,String middleName, int groupNumber, String sportName){
         super(familyName, givenName, middleName, groupNumber);
