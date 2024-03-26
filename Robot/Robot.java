@@ -1,3 +1,6 @@
+/**
+This class represents robot, which has 2 actions. rotate to right/left and move to current direction
+*/
 public class Robot {
     int x;
     int y;
